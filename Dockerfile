@@ -6,9 +6,9 @@ ADD https://github.com/gitbucket/gitbucket/releases/download/4.9/gitbucket.war /
 
 COPY gitbucket.sh /opt/gitbucket.sh
 
-RUN ln -s /gitbucket /root/.gitbucket
+#RUN ln -s /gitbucket /root/.gitbucket
 
-VOLUME /gitbucket
+#VOLUME /gitbucket
 
 # Port for web page
 EXPOSE 8080
