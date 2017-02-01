@@ -1,6 +1,10 @@
 docker-gitbucket
 ================
 
+## DevOps Katas
+
+This Gitbucket image has been modified to store its state internally.  It is pre-configured to work with the DevOps Katas Learning VM.
+
 Setup a container with [GitBucket](https://github.com/takezoe/gitbucket) installed.
 
 ## Usage
