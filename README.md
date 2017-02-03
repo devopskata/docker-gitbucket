@@ -12,7 +12,7 @@ Setup a container with [GitBucket](https://github.com/takezoe/gitbucket) install
 To run the container, do the following:
 
 ```
-% docker run -d -p 8080:8080 -p 29418:29418 -v ${PWD}/gitbucket-data:/gitbucket f99aq8ove/gitbucket
+% docker run -d -p 8080:8080 -p 29418:29418 devopskatas/gitbucket_image
 ```
 
 You can see gitbucket running on http://localhost:8080/
